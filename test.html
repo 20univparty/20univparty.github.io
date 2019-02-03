@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/testcss.css">
+    <link rel="stylesheet" href="css/total.css">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src = "css/test.js"></script>
+
+    <script>
+      jQuery(document).ready(function($) {
+
+              $(".scroll").click(function(event){
+                      event.preventDefault();
+                      $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+              });
+      });
+  </script>
+
+  <title>나에게 맞는 북한 여행지는?</title>
+  <link rel="shortcut icon" type="image⁄x-icon" href="img/icon.png">
+  </head>
+  <body>
+    <nav>
+        <a href = "index.html"><img src="img/logo.png" alt="대학생당"/></a>
+    </nav>
+
+    <div id ="section01" class = "section">
+      <h2>1. 학창시절 내가 좋아했던 과목은?</h2>
+      <form method="post">
+        <label><input type="radio" name="chk_info" value="history"/>역사</label><br>
+        <label><input type="radio" name="chk_info" value="nature"/>과학</label><br>
+        <label><input type="radio" name="chk_info" value="amusement"/>체육</label><br>
+        <label><input type="radio" name="chk_info" value="culture"/>사회</label><br>
+      </form>
+      <a href="#section02" class="scroll" >다음으로</a>
+    </div>
+
+    <div id ="section02" class = "section">
+      <h2>2. 금요일 저녁, 일이 끝나고 나는 어디로 향할 것인가?</h2>
+      <form method="post">
+        <label><input type="radio" name="chk_info" value="museum"/>바로 집으로 간다.</label><br>
+        <label><input type="radio" name="chk_info" value="city"/>카페나 영화관을 간다. </label><br>
+        <label><input type="radio" name="chk_info" value="culture"/>공원에서 맥주를 마신다.</label><br>
+        <label><input type="radio" name="chk_info" value="amusement"/>친구와 약속을 잡는다.</label><br>
+      </form>
+      <a href="#section01" class="scroll">이전으로</a>
+      <a href="#section03" class="scroll">다음으로</a>
+    </div>
+
+    <div id ="section03" class = "section">
+      <h2>3. 내가 선호하는 여행 스타일은? </h2>
+      <form method="post">
+        <label><input type="radio" name="chk_info" value="culture"/>금강산도 식후경! 먹는게 최고다. </label><br>
+        <label><input type="radio" name="chk_info" value="nature"/>사람이 북적이지 않는 조용한 곳이 좋다.</label><br>
+        <label><input type="radio" name="chk_info" value="city"/>SNS에 올릴만한 인생샷을 남기고 싶다 .</label><br>
+        <label><input type="radio" name="chk_info" value="museum"/>최대한 많은 여행지를 다니며 체험하고, 배우고 싶다 .</label><br>
+      </form>
+      <a href="#section02" class="scroll">이전으로</a>
+      <a href="#section04" class="scroll">다음으로</a>
+    </div>
+
+    <div id ="section04" class = "section">
+      <h2>4. 여행하는 도중 누군가 길을 물어본다면? </h2>
+      <form method="post">
+        <label><input type="radio" name="chk_info" value="museum"/>무시한다. </label><br>
+        <label><input type="radio" name="chk_info" value="amusement"/>아는데로 알려준다.</label><br>
+        <label><input type="radio" name="chk_info" value="history"/>모르지만 알려주려고 노력한다.</label><br>
+        <label><input type="radio" name="chk_info" value="nature"/>모른다고 말한다.</label><br>
+      </form>
+      <a href="#section03" class="scroll">이전으로</a>
+      <a href="#section05" class="scroll">다음으로</a>
+    </div>
+
+    <div id ="section05" class = "section">
+      <h2>5. 내가 좋아하는 분위기는?</h2>
+      <form method="post">
+        <label><input type="radio" name="chk_info" value="history"/>석양이 지는 하늘 </label><br>
+        <label><input type="radio" name="chk_info" value="museum"/>종이냄새 나는 한낮의 도서관</label><br>
+        <label><input type="radio" name="chk_info" value="amusement"/>푸릇푸릇한 여름</label><br>
+        <label><input type="radio" name="chk_info" value="nature"/>파도치는 바닷가</label><br>
+      </form>
+      <a href="#section04" class="scroll">이전으로</a>
+      <a href="#section06" class="scroll">다음으로</a>
+    </div>
+
+    <div id ="section06" class = "section">
+      <h2>6. 함께 여행을 떠나고 싶은 사람은?</h2>
+      <form method="post">
+        <label><input type="radio" name="chk_info" value="history"/>나는 혼자 다니는게 좋다. </label><br>
+        <label><input type="radio" name="chk_info" value="museum"/>가족</label><br>
+        <label><input type="radio" name="chk_info" value="city"/>친구</label><br>
+        <label><input type="radio" name="chk_info" value="culture"/>연인</label><br>
+      </form>
+      <a href="#section05" class="scroll">이전으로</a>
+      <a href="#section07" class="scroll">다음으로</a>
+    </div>
+
+    <div id ="section07" class = "section">
+      <h2>7. 여행 중 차질이 생겼다. 나의 선택은?</h2>
+      <form method="post">
+        <label><input type="radio" name="chk_info" value="amusement"/>어떻게든 목적지를 가기위해 없는 시간을 만들어낸다. </label><br>
+        <label><input type="radio" name="chk_info" value="museum"/>포기하고 다른 곳을 간다.</label><br>
+        <label><input type="radio" name="chk_info" value="history"/>기분이 상해 아무것도 하기가 싫다.</label><br>
+        <label><input type="radio" name="chk_info" value="nature"/>여행은 이런 맛이지! 현재를 즐긴다.</label><br>
+      </form>
+      <a href="#section06" class="scroll">이전으로</a>
+      <a href="#section08" class="scroll">다음으로</a>
+    </div>
+
+    <div id ="section08" class = "section">
+      <h2>8. 내가 머무르고 싶은 숙소는?</h2>
+      <form method="post">
+        <label><input type="radio" name="chk_info" value="history"/>평양서산호텔</label><br>
+        <label><input type="radio" name="chk_info" value="nature"/>양각도국제호텔</label><br>
+        <label><input type="radio" name="chk_info" value="museum"/>창광산호텔</label><br>
+        <label><input type="radio" name="chk_info" value="city"/>양강호텔</label><br>
+      </form>
+      <a href="#section07" class="scroll">이전으로</a>
+      <a href="#section09" class="scroll">다음으로</a>
+    </div>
+
+    <div id ="section09" class = "section">
+      <h2>9. 북한에서 먹어보고 싶은 음식은? </h2>
+      <form method="post">
+        <label><input type="radio" name="chk_info" value="culture"/>대동강맥주</label><br>
+        <label><input type="radio" name="chk_info" value="nature"/>아바이순대</label><br>
+        <label><input type="radio" name="chk_info" value="amusement"/>인조고기밥</label><br>
+        <label><input type="radio" name="chk_info" value="city"/>평양냉면</label><br>
+      </form>
+      <a href="#section08" class="scroll">이전으로</a>
+      <a href="#section10" class="scroll">다음으로</a>
+    </div>
+
+    <div id ="section10" class = "section">
+      <h2>10. 자유여행 4시간이 주어진다면? </h2>
+      <form method="post">
+        <label><input type="radio" name="chk_info" value="culture"/>숙소에서 휴식을 취한다.</label><br>
+        <label><input type="radio" name="chk_info" value="city"/>기념품을 사러간다.</label><br>
+        <label><input type="radio" name="chk_info" value="amusement"/>다녀왔던 여행지를 다시 가본다.</label><br>
+        <label><input type="radio" name="chk_info" value="nature"/>사진을 찍으러 간다.</label><br>
+      </form>
+      <a href="#section09" class="scroll">이전으로</a>
+      <a href="#section11" class="scroll">다음으로</a>
+    </div>
+
+    <div id ="section11" class = "section">
+      <h2>11. 한달동안 북한의 대학교에서 수업을 받을 수 있다면?</h2>
+      <form method="post">
+        <label><input type="radio" name="chk_info" value="history"/>김일성종합대학</label><br>
+        <label><input type="radio" name="chk_info" value="museum"/>김책공업대학</label><br>
+        <label><input type="radio" name="chk_info" value="culture"/>김원균명칭 음악종합대학 </label><br>
+        <label><input type="radio" name="chk_info" value="city"/>평양외국어대학</label><br>
+      </form>
+      <a href="#section10" class="scroll">이전으로</a>
+      <a href="#section12" class="scroll">다음으로</a>
+    </div>
+
+  <div id ="section12" class = "section">
+    <h2>12. 북한여행에서 가장 기대되는 것은?</h2>
+    <form method="post">
+      <label><input type="radio" name="chk_info" value="city"/>건축물</label><br>
+      <label><input type="radio" name="chk_info" value="history"/>역사유적지</label><br>
+      <label><input type="radio" name="chk_info" value="culture"/>음식 </label><br>
+      <label><input type="radio" name="chk_info" value="amusement"/>문화시설</label><br>
+    </form>
+      <button onclick="button1_click();"> test </button>
+    </div>
+
+  </body>
+</html>

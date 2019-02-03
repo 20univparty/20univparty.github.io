@@ -1,0 +1,29 @@
+.section{
+  height: 100%;
+  margin: 0px auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section h2{
+  text-align: center;
+}
+
+#section01{
+  background-color: lightgray;
+}
+
+#section02{
+  background-color: darkblue;
+}
+
+#section03{
+  background-color: gray;
+}
+
+#section01 h2{
+  margin-top:0px;
+  padding-top:50px;
+}
