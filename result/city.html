@@ -7,6 +7,14 @@
     <link rel="shortcut icon" type="image⁄x-icon" href="../img/icon.png">
     <link rel="stylesheet" href="../css/resultcss.css">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+
+    <meta property="og:url" content="링크걸 주소(ex : http://www.naver.com)">
+    <meta property="og:title" content="미리보기 내의 걸릴 제목 (ex : 네이버)">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="이미지 주소(프로젝트 내의 절대 경로든 외부의 경로든 상관없다)">
+    <meta property="og:description" content="사이트의 소개 내용(ex : 네이버입니다)">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   </head>
   <body>
     <nav>
@@ -19,7 +27,24 @@
 
       <a href="http://twitter.com/share?text=나에게 맞는 북한 여행지는?&url=www.naver.com&hashtags=북한여행지추천테스트">트위터에 공유하기</a>
       <a href="http://www.facebook.com/sharer/sharer.php?u=www.naver.com">페이스북에 공유하기</a>
+      <button id='btn1'>URL 복사하기</button>
       <a href="../index.html">다시하기</a>
+
+        <script>
+        function copyToClipboard(val) {
+          var t = document.createElement("textarea");
+          document.body.appendChild(t);
+          t.value = val;
+          t.select();
+          document.execCommand('copy');
+          document.body.removeChild(t);
+        }
+        $('#btn1').click(function() {
+          copyToClipboard('https://20univparty.github.io/result/city.html');
+          alert('클립보드에 복사되었습니다. 붙여넣기로 공유하세요.');
+        });
+        </script>
+
     </section>
   </body>
 </html>
