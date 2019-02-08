@@ -8,25 +8,63 @@
     <link rel="stylesheet" href="../css/resultcss.css">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
 
-    <meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="나에게 맞는 북한여행지는?" />
-    <meta property="og:description"   content="북한 여행지 추천 테스트" />
-    <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+    <meta property="og:url" content="https://20univparty.github.io/result/nature.html">
+    <meta property="og:title" content="나에게 맞는 북한 여행지는?">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="이미지 주소(프로젝트 내의 절대 경로든 외부의 경로든 상관없다)">
+    <meta property="og:description" content="당신은 짜릿한 활동과 도전을 즐기는 모험가입니다.">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   </head>
   <body>
     <nav>
-        <a href = "../index.html"><img src="../img/logo.png" alt="대학생당"/></a>
+      <a href = "../index.html"><img src="../img/logo.png" alt="대학생당"/></a>
     </nav>
 
     <section>
       <h1>당신은 짜릿한 활동과 도전을 즐기는 모험가입니다.</h1>
+      <img src="../img/symbol/모험가.png" alt="모험가" width="300px;">
+      <div class = "iconsrc">Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
       <h3>당신에게 추천하는 여행지는 다음과 같습니다.</h3>
 
-      <a href="http://twitter.com/share?text=나에게 맞는 북한 여행지는?&url=www.naver.com&hashtags=북한여행지추천테스트">트위터에 공유하기</a>
-      <a href="http://www.facebook.com/sharer/sharer.php?u=www.naver.com">페이스북에 공유하기</a>
+      <div class="res_container">
+        <div class="res_list">
+          <h2>문수물놀이장</h2>
+          <img src="../img/spot/20문수물놀이장.jpg" alt="문수물놀이장" width="200px">
+          <p>평양에서 가장 큰 수영장이다. 남한의 워터파크와 비슷하다. 27개의 미끄럼틀, 야외 물놀이장, 실내 물놀이장, 체육관, 암벽 등반 시설, 음식점, 덤블링장, 탁구장, 배구장 등 체육 시설도 부속 건물로 함께 건설 되었다. </p>
+        </div>
+        <div class="res_list">
+          <h2>마식령스키장</h2>
+          <img src="../img/spot/21마식령스키장.jpg" alt="마식령스키장" width="200px">
+          <p>강원도 원산시에 있는 스키장으로 해발 1363m 대화봉 정상에 자리했다. 초급과 중급 등 10개 주로를 확보하고 있으며 스키는 물론 다양한 겨울 스포츠를 즐길 수 있다. 스키장 내 자리한 마식령 호텔에는 250개의 외국인 전용 객실과 150개의 북한 주민용 객실을 갖췄다. 아울러 수영장과 당구장, 오락실, 무도장, 이발소 등을 포함한 각종 부대시설도 운영하고 있다. 이 곳에 있는 가장 긴 슬로프는 동양 최대 규모이다. 한 때 평창올림픽 분산 개최지로 언급되었고, 1박2일동안 남북 공동훈련을 했었다. </p>
+        </div>
+        </div>
+        <div class="res_list">
+          <h2>개선청년공원</h2>
+          <img src="../img/spot/22개선청년공원.jpg" alt="개선청년공원" width="200px">
+          <p>평양의 놀이공원으로 북한에선 유희장이라 부른다. 1984년에 완공되었고 2010년에 새로운 기구들을 도입한 후 인기를 끌고 있다. 우리에게 익숙한 바이킹, 롤러코스터, 자이드롭, 전자오락관까지 갖춘 북한의 핫플레이스다.</p>
+        </div>
+
+      <a href="http://twitter.com/share?text=나에게 맞는 북한 여행지는?&url=https://20univparty.github.io/index.html&hashtags=북한여행지추천테스트">트위터에 공유하기</a>
+      <a href="http://www.facebook.com/sharer/sharer.php?u=https://20univparty.github.io/index.html">페이스북에 공유하기</a>
+      <button id='btn1'>URL 복사하기</button>
       <a href="../index.html">다시하기</a>
+
+        <script>
+        function copyToClipboard(val) {
+          var t = document.createElement("textarea");
+          document.body.appendChild(t);
+          t.value = val;
+          t.select();
+          document.execCommand('copy');
+          document.body.removeChild(t);
+        }
+        $('#btn1').click(function() {
+          copyToClipboard('https://20univparty.github.io/result/amusement.html');
+          alert('클립보드에 복사되었습니다. 붙여넣기로 공유하세요.');
+        });
+        </script>
+
     </section>
-  </body>
-</html>
+    </body>
+    </html>

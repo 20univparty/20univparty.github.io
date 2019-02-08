@@ -1,13 +1,34 @@
 @media all and (min-width:320px){
-  section{
-    background-image: url("../img/test.jpg");
+  .line1{
+    margin: 3% auto;
+  }
+  .opening{
+    font-size:10pt;
+  }
+}
+
+@media all and (min-width:375px){
+  .line1{
+    margin: 4% auto;
+  }
+}
+
+@media all and (min-width:768px){
+  .line1{
+    /* margin: 5% auto; */
+  }
+  .opening{
+    font-size:13pt;
   }
 }
 
 @media all and (min-width:1024px){
-  section{
-    background-image: url("../img/test.png");
-  }
+
+
+}
+
+html, body{
+  height:100%;
 }
 
 section{
@@ -22,4 +43,47 @@ section{
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+section h1{
+  font-family: 'Song Myung', serif;
+  font-size: 24pt;
+}
+
+.opening{
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url('../img/paper.png');
+  height: 55%;
+  width: 80%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line1{
+  width:80px;
+  height: 5px;
+  background-color: darkblue;
+}
+
+.btn_open a{
+  text-decoration: none;
+  color : lightgray;
+}
+
+.btn_open{
+  background-color: darkblue;
+  width:150px;
+  height: 50px;
+  line-height: 50px;
+  border-radius:10px;
+  margin: auto;
+  box-shadow: 5px 5px 3px #aaaaaa;
+}
+
+.btn_open a:hover{
+  color:white;
 }
