@@ -1,3 +1,7 @@
+html, body{
+  margin-bottom: 50px;
+}
+
 section{
   height: 93%;
   width: 100%;
@@ -10,4 +14,57 @@ section{
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+section h1{
+  margin-top: 100px;
+  font-family: 'Song Myung', serif;
+}
+
+section h3{
+  font-family: 'Song Myung', serif;
+}
+
+.res_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 750px) {
+  .res_container { display: block; }
+}
+
+@media (max-width: 350px) {
+  .res_list { width: 280px; }
+}
+
+@media (min-width: 350px) {
+  .res_list { width: 350px; }
+}
+
+.res_list{
+  height: 520px;
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url('../img/paper.png');
+  margin: 20px;
+  padding: 15px;
+}
+
+.res_list h2{
+  font-family: 'Song Myung', serif;
+}
+
+.res_list p{
+  text-align: justify;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.iconsrc{
+  color: lightgray;
+  font-size: 8pt;
+}
+
+.iconsrc a{
+  text-decoration: none;
+  color: lightgray;
 }

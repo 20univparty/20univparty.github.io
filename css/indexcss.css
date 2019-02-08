@@ -27,6 +27,10 @@
 
 }
 
+html, body{
+  height:100%;
+}
+
 section{
   height: 100%;
   width: 100%;
@@ -47,6 +51,7 @@ section h1{
 }
 
 .opening{
+  /* Background pattern from Toptal Subtle Patterns */
   background-image: url('../img/paper.png');
   height: 55%;
   width: 80%;
