@@ -36,9 +36,10 @@ function button1_click() {
   }
 
   var max = Math.max(city, amusement, museum, nature, culture, history);
+  var sum = city + culture + museum + history + amusement + nature;
 
-  if(sel_type == null){
-        alert("선택해주세요.");
+  if(sel_type == null || sum != 12){
+        alert("선택되지않은 항목이 있습니다.");
 		} else if(max == history){
     location.href="result/history.html"
   } else if (max == culture){

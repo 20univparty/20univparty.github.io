@@ -8,8 +8,17 @@
     <link rel="stylesheet" href="css/indexcss.css">
     <link rel="stylesheet" href="css/total.css">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript">
+      $(window).load(function() {
+           $('#loading').hide();
+          });
+</script>
+
   </head>
   <body>
+    <div id="loading"><img id="loading-image" src="img/ajax-loader.gif" alt="Loading..." /></div>
+
     <nav>
       <a href = "index.html"><img src="img/logo.png" alt="대학생당"/></a>
     </nav>
