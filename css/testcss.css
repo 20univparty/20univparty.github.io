@@ -13,6 +13,11 @@ html, body{
 
 .section h2{
   text-align: center;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.section label{
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #section01{

@@ -46,7 +46,7 @@ section{
 }
 
 section h1{
-  font-family: 'Song Myung', serif;
+  font-family: 'Nanum Myeongjo', serif;
   font-size: 24pt;
 }
 
@@ -69,11 +69,6 @@ section h1{
   background-color: darkblue;
 }
 
-.btn_open a{
-  text-decoration: none;
-  color : lightgray;
-}
-
 .btn_open{
   background-color: darkblue;
   width:150px;
@@ -82,8 +77,15 @@ section h1{
   border-radius:10px;
   margin: auto;
   box-shadow: 5px 5px 3px #aaaaaa;
+  text-decoration: none;
+  color : lightgray;
 }
 
-.btn_open a:hover{
+.btn_open:hover{
   color:white;
+  text-decoration: none;
+}
+
+.btn_open:active{
+  text-decoration: none;
 }

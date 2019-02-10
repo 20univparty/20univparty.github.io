@@ -18,11 +18,11 @@ section{
 
 section h1{
   margin-top: 100px;
-  font-family: 'Song Myung', serif;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 section h3{
-  font-family: 'Song Myung', serif;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 .res_container{
@@ -34,11 +34,11 @@ section h3{
   .res_container { display: block; }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .res_list { width: 280px; }
 }
 
-@media (min-width: 350px) {
+@media (min-width: 400px) {
   .res_list { width: 350px; }
 }
 
@@ -51,7 +51,7 @@ section h3{
 }
 
 .res_list h2{
-  font-family: 'Song Myung', serif;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 .res_list p{
