@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="css/total.css">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Noto+Sans+KR|Song+Myung" rel="stylesheet">
+    <link rel="stylesheet" href="jquery.lightbox-0.5.css"/>
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src = "jquery.lightbox-0.5.js"></script>
     <script src = "css/test.js"></script>
 
     <script>
@@ -16,6 +18,10 @@
                       event.preventDefault();
                       $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
               });
+      });
+
+      $(document).ready(function (){
+        $('a.light').lightBox();
       });
   </script>
 
@@ -111,7 +117,8 @@
     </div>
 
     <div id ="section08" class = "section">
-      <h2>8. 내가 머무르고 싶은 숙소는?</h2><br>
+      <h2>8. 내가 머무르고 싶은 숙소는?</h2>
+      <a  class = "light" href="img/select/08.jpg">설명보기</a><br>
       <form method="post">
         <input type="radio" name="chk_info" id ="radio801" onClick="window.location.href='#section09';" value="history"/><label for ="radio801">평양서산호텔</label><br><br>
         <input type="radio" name="chk_info" id ="radio802" onClick="window.location.href='#section09';" value="nature"/><label for ="radio802">양각도국제호텔</label><br><br>
