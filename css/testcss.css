@@ -69,3 +69,10 @@ input[type=radio]:checked+ label {
   margin-top:0px;
   padding-top:50px;
 }
+
+.next_btn{
+  height: 30px;
+}
+.pre_btn{
+  height: 30px;
+}

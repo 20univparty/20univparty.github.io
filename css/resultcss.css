@@ -68,3 +68,14 @@ section h3{
   text-decoration: none;
   color: lightgray;
 }
+
+section .btnlist{
+  width:300px;
+  margin: auto;
+}
+
+.btnlist img, button{
+  width: 120px;
+  height: 38px;
+  margin: 0 auto;
+}
