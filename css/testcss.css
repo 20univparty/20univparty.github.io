@@ -12,6 +12,7 @@ html, body{
 }
 
 .section h2{
+  color:white;
   text-align: center;
   font-family: 'Nanum Myeongjo', serif;
 }
@@ -54,15 +55,75 @@ input[type=radio]:checked+ label {
 }
 
 #section01{
-  background-color: lightgray;
+  background-image: url(../img/background/01.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 #section02{
-  background-color: darkblue;
+  background-image: url(../img/background/02.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 #section03{
-  background-color: gray;
+  background-image: url(../img/background/03.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#section04{
+  background-image: url(../img/background/04.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#section05{
+  background-image: url(../img/background/05.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#section06{
+  background-image: url(../img/background/06.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#section07{
+  background-image: url(../img/background/07.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#section08{
+  background-image: url(../img/background/08.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#section09{
+  background-image: url(../img/background/09.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#section10{
+  background-image: url(../img/background/10.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#section11{
+  background-image: url(../img/background/11.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#section12{
+  background-image: url(../img/background/12.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 #section01 h2{
@@ -72,7 +133,10 @@ input[type=radio]:checked+ label {
 
 .next_btn{
   height: 30px;
+  float:left;
+  margin: 5px;
 }
-.pre_btn{
-  height: 30px;
+
+.more{
+  height: 25px;
 }

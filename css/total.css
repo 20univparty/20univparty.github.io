@@ -55,7 +55,8 @@
 
 html, body {
   margin: 0px;
-  background-color: #CED8F6;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 nav{

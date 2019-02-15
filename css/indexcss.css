@@ -1,42 +1,24 @@
-@media all and (min-width:320px){
-  .line1{
-    margin: 3% auto;
-  }
-  .opening{
-    font-size:10pt;
+@media all and (min-width:500px){
+  section img{
+    width: 480px;
   }
 }
 
-@media all and (min-width:375px){
-  .line1{
-    margin: 4% auto;
+@media all and (max-width:500px){
+  section img{
+    width:90%;
   }
 }
 
-@media all and (min-width:768px){
-  .line1{
-    /* margin: 5% auto; */
-  }
-  .opening{
-    font-size:13pt;
-  }
-}
-
-@media all and (min-width:1024px){
-
-
-}
-
-html, body{
-  height:100%;
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #c0cdef;
 }
 
 section{
   height: 100%;
   width: 100%;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: 100% 100%;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
@@ -45,28 +27,13 @@ section{
   text-align: center;
 }
 
-section h1{
-  font-family: 'Nanum Myeongjo', serif;
-  font-size: 24pt;
+section img{
+  height: auto;
+  margin:0 auto;
 }
 
-.opening{
-  /* Background pattern from Toptal Subtle Patterns */
-  background-image: url('../img/paper.png');
-  height: 55%;
-  width: 80%;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 15px;
-  font-family: 'Noto Sans KR', sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.line1{
-  width:80px;
-  height: 5px;
-  background-color: darkblue;
+section a{
+  text-decoration: none;
 }
 
 .btn_open{
@@ -75,7 +42,7 @@ section h1{
   height: 50px;
   line-height: 50px;
   border-radius:10px;
-  margin: auto;
+  margin: 20px auto;
   box-shadow: 5px 5px 3px #aaaaaa;
   text-decoration: none;
   color : lightgray;

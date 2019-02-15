@@ -1,5 +1,6 @@
 html, body{
   margin-bottom: 50px;
+  background-color: #c0cdef;
 }
 
 section{
@@ -39,14 +40,14 @@ section h3{
 }
 
 @media (min-width: 400px) {
-  .res_list { width: 350px; }
+  .res_list { width: 340px; }
 }
 
 .res_list{
   height: 520px;
   /* Background pattern from Toptal Subtle Patterns */
   background-image: url('../img/paper.png');
-  margin: 20px;
+  margin: 10px;
   padding: 15px;
 }
 
@@ -75,7 +76,16 @@ section .btnlist{
 }
 
 .btnlist img, button{
-  width: 120px;
-  height: 38px;
+  width: 140px;
+  height: 40px;
   margin: 0 auto;
+}
+
+.btnlist{
+  padding-top: 20px;
+}
+
+.btnlist .moreinfo{
+  width:170px;
+  height:50px;
 }
